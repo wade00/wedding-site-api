@@ -98,12 +98,10 @@ ActiveRecord::Schema.define(version: 20180827130424) do
     t.text "description"
     t.string "price_range"
     t.string "phone"
-    t.string "suggestable_type"
-    t.bigint "suggestable_id"
+    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["neighborhood_id"], name: "index_suggestions_on_neighborhood_id"
-    t.index ["suggestable_type", "suggestable_id"], name: "index_suggestions_on_suggestable_type_and_suggestable_id"
   end
 
   create_table "tags", force: :cascade do |t|

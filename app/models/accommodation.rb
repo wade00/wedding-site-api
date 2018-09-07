@@ -1,3 +1,2 @@
-class Accommodation < ApplicationRecord
-  belongs_to :suggestable, polymorphic: true
+class Accommodation < Suggestion
 end

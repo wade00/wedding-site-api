@@ -13,7 +13,7 @@ class CreateSuggestions < ActiveRecord::Migration[5.1]
       t.text :description
       t.string :price_range
       t.string :phone
-      t.references :suggestable, polymorphic: true
+      t.string :type
 
       t.timestamps
     end
