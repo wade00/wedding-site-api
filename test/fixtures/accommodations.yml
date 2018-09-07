@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  wait_time: 20 minutes
+  discounted_rate_available: true
 
 two:
-  wait_time: 2 hours
+  discounted_rate_available: false

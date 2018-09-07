@@ -1,6 +1,6 @@
-class CreateAcommodations < ActiveRecord::Migration[5.1]
+class CreateAccommodations < ActiveRecord::Migration[5.1]
   def change
-    create_table :acommodations do |t|
+    create_table :accommodations do |t|
       t.boolean :discounted_rates_available, default: false
 
       t.timestamps

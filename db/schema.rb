@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20180827130424) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "acommodations", force: :cascade do |t|
+  create_table "accommodations", force: :cascade do |t|
     t.boolean "discounted_rates_available", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
